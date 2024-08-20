@@ -1,0 +1,18 @@
+Para que funcione la web, habrá que crear la siguiente base de datos en phpMyAdmin:
+
+proyecto (Nombre de la base de datos)
+	
+	usuarios (Nombre de la tabla)
+		usuario (varchar(20))
+		nombre (varchar(50))
+		contraseña (varchar(50))
+
+Cada vez que se crea un usuario, se le creará automáticamente una tabla con datos únicos para cada usuario.
+La siguiente tabla no es necesario crearla, solo es un recordatorio.
+
+bodega
+	Codigo (varchar(3))
+	Nombre (varchar(30))
+	Precio_Unitario (int(255))
+	Vendidos (int(6))
+	En_Bodega (int(6))
